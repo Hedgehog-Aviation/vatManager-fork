@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vatSysManager"
         mc:Ignorable="d"
-        Title="vatSys Launcher" Height="450" Width="800"
+        Title="vatSys Manager
+       " Height="450" Width="800"
         ResizeMode="NoResize">
     <Grid>
         <Image Source="/logo.jpg" Stretch="None" Margin="18,16,567,303"/>
         <Button x:Name="HomeButton" Content="Home" HorizontalAlignment="Left" Margin="24,126,0,0" VerticalAlignment="Top" Height="43" Width="198" Click="HomeButton_Click" />
         <Button x:Name="ProfilesButton" Content="Profiles" HorizontalAlignment="Left" Margin="24,174,0,0" VerticalAlignment="Top" Height="43" Width="198" Click="ProfilesButton_Click" />
         <Button x:Name="PluginsButton" Content="Plugins" HorizontalAlignment="Left" Margin="24,222,0,0" VerticalAlignment="Top" Height="43" Width="198" Click="PluginsButton_Click" />
-        <Button x:Name="SetupButton" Content="Setup" HorizontalAlignment="Left" Margin="24,270,0,0" VerticalAlignment="Top" Height="43" Width="198" Click="SetupButton_Click" />
+        <Button x:Name="SetupButton" Content="Settings" HorizontalAlignment="Left" Margin="24,270,0,0" VerticalAlignment="Top" Height="43" Width="198" Click="SetupButton_Click" />
         <Canvas x:Name="InitCheckCanvas" Margin="233,0,0,0" Visibility="Hidden">
             <TextBlock Canvas.Left="90" TextWrapping="Wrap" Text="You must close vatSys to continue." Canvas.Top="123" Width="387" VerticalAlignment="Top" HorizontalAlignment="Left" TextAlignment="Center" FontWeight="Bold" FontSize="20"/>
             <Button x:Name="CloseButton" Content="Close vatSys" Height="43" Width="518" Canvas.Left="10" Canvas.Top="165" Click="VatSysCloseButton_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFED8181" />
