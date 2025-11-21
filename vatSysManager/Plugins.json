@@ -22,5 +22,9 @@
   {
     "Name": "maxrumsey/TrafficInjector",
     "DllName": "TrafficInjector.Plugin.dll"
+  },
+  {
+    "Name": "vatSys/RemoteVSCSPlugin",
+    "DllName": "RemoteVSCSPlugin.dll"
   }
 ]
